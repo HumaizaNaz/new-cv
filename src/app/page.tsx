@@ -22,7 +22,7 @@ export default function CV() {
       <header className="mb-8 border-b-2 border-emerald-600 pb-6">
         <h1 className="text-4xl font-bold text-gray-800">HUMAIZA NAZ</h1>
         <h2 className="text-xl font-semibold text-emerald-600 mt-1">
-          AI-Native Full Stack Developer & Agentic Systems Engineer
+          AI-Native Full Stack Developer & Agentic Systems Engineer · Co-Founder @ Novaj AI
         </h2>
  
         <div className="flex flex-wrap gap-4 mt-4 text-gray-600 text-sm">
@@ -40,7 +40,7 @@ export default function CV() {
             <Linkedin className="h-4 w-4 mr-1" /> <span className="text-xs">LinkedIn</span>
           </a>
           <a
-            href="https://github.com/humaizaasghar"
+            href="https://github.com/HumaizaNaz"
             className="text-emerald-600 hover:text-emerald-800 flex items-center"
             title="GitHub"
           >
@@ -71,7 +71,7 @@ export default function CV() {
             {showQRCode ? "Hide" : "Show"} QR
           </button>
         </div>
-        {showQRCode && <QRCodeComponent value="https://humaiza-portfolio.vercel.app" size={140} />}
+        {showQRCode && <QRCodeComponent value="https://portfolio-humaiza.vercel.app" size={140} />}
       </section>
 
       {/* Profile */}
@@ -81,7 +81,8 @@ export default function CV() {
           AI-Native Full Stack Developer building production-grade autonomous agents using Spec-Kit, Gemini CLI, MCP servers, OpenAI SDK, and RAG systems.
           Expert in Next.js, TypeScript, Python, Node.js, Google Gemini, Hugging Face, and cloud-native deployment.
           Licensed Homeopathic Doctor bridging medical expertise with AI-driven health-tech.
-          GDG Agentic AI Hackathon Winner (Pregnancy Agent) • Built prototype for Governor Sindh IT Initiative (50K+ users).
+          GDG Agentic AI Hackathon Winner (Pregnancy Agent) • Built prototype for Governor Sindh IT Initiative (50K+ users) •
+          Faculty Team Member, GIAIC Summer Camp at Governor House Sindh.
           Deployed 25+ projects | 500+ community members | 30+ YouTube tutorials.
         </p>
       </section>
@@ -132,6 +133,17 @@ export default function CV() {
         <div className="space-y-4 text-gray-700">
           <div>
             <div className="flex justify-between">
+              <h4 className="font-bold">Faculty Team Member — GIAIC Summer Camp</h4>
+              <span className="text-sm text-gray-600">2026</span>
+            </div>
+            <p className="font-medium text-emerald-600">Governor House Sindh</p>
+            <ul className="mt-2 space-y-1 list-disc list-inside">
+              <li>Selected as a faculty team member for the GIAIC Summer Camp at Governor House Sindh</li>
+              <li>Teaching and mentoring students in AI and modern web development</li>
+            </ul>
+          </div>
+          <div>
+            <div className="flex justify-between">
               <h4 className="font-bold">AI Developer & Cloud Engineer</h4>
               <span className="text-sm text-gray-600">2024 - Present</span>
             </div>
@@ -142,7 +154,7 @@ export default function CV() {
               <li>Implemented cloud-based solutions using Google Cloud Platform and serverless architecture</li>
               <li>Built production-grade AI systems with Spec-Kit framework and multi-agent orchestration</li>
               <li>Created RAG-based systems with vector databases for intelligent document processing and retrieval</li>
-              <li>Founded Neura Nest — AI startup focused on autonomous systems and agentic AI solutions</li>
+              <li>Co-Founded Novaj AI — AI startup building Vision DX, a Medical AI platform for CT, MRI, X-ray & Ultrasound analysis</li>
             </ul>
           </div>
         </div>
@@ -169,7 +181,7 @@ export default function CV() {
             Gemini-powered agent + real-time analytics using Next.js, Node.js, Sanity CMS.
           </li>
           <li className="border-l-4 border-emerald-600 pl-4">
-            <strong>VisionDX AI — Medical Image Analysis Tool</strong> (Neura Nest)<br />
+            <strong>VisionDX AI — Medical Image Analysis Tool</strong> (Novaj AI)<br />
             AI-based vision tool for analyzing medical images, bridging clinical expertise with intelligent diagnostics.
           </li>
           <li className="border-l-4 border-emerald-600 pl-4">
